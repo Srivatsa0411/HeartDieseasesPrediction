@@ -1,0 +1,29 @@
+# 🔒 Virtual environment
+.venv/
+venv/
+
+# 💾 System files
+.DS_Store
+Thumbs.db
+
+# 🚫 Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 📊 CSV outputs
+*.csv
+!data/*.csv   # Allow data/*.csv to remain under version control
+y_predict.csv
+
+# 📓 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🛠 IDE & VSCode settings
+.vscode/
+*.code-workspace
+
+# 📦 Dependency locking (optional, if generated)
+poetry.lock
+Pipfile.lock

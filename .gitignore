@@ -13,7 +13,6 @@ __pycache__/
 *.pyd
 
 # 📊 CSV outputs
-!data/*.csv   # Allow data/*.csv to remain under version control
 y_predict.csv
 
 # 📓 Jupyter Notebook checkpoints
